@@ -1,0 +1,191 @@
+html {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+/* Header */
+
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: #4B6F44;
+    z-index: 100;
+    color: white;
+    
+
+}
+a:link { 
+    text-decoration: none; 
+    color: White;
+}
+a:visited { 
+    text-decoration: none;
+    color: White;
+}
+.logo {
+    font-weight: bold;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+header .content {
+    padding: 1.00rem;
+    font-size: 1.5rem;
+    font-style: bold;
+    height: 100%;
+    width: 95%;
+  }
+
+header a {
+    float: left;
+    vertical-align: bottom;
+}
+  
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    margin-left: 50%;
+  }
+
+
+
+/* Mission */
+
+.main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 750px;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-bottom: 360px;
+}
+.main-mission {
+    top: 171px;
+    height: 1500px;
+    margin-top: 250px;
+    margin-left: 25%;
+    
+}
+.mission-label {
+    position: relative;
+    left: 100%;
+    top: 5%;
+    width: 31rem;
+    height: 15rem;
+    padding: 25px;
+    background-color: #4B6F44;
+    border-radius: 15px;
+    border-style: 1px solid grey;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    color: white;
+}
+
+
+/* Product */
+
+.product {
+    width: 100%;
+    height: 100%;
+    border-bottom: solid 0px #c6c1c1;
+    background-color: lightgrey;
+}
+
+.products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.products > div {
+    width: 500px;
+    height: 100%;
+    border-radius: 25px;
+    background-color: black;
+    margin: 10px;
+    padding: 20px;
+    color: white;
+
+}
+
+.products img {
+    border-radius: 25px;
+    height: 150px;
+    width: 150px;
+}
+
+/* About */
+
+.about {
+    width: 100%;
+    height: 100%;
+    border-bottom: solid 0px #c6c1c1;
+    background-image: url("../img/skyline.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.aboutus {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.aboutus > div {
+    width: 500px;
+    height: 100%;
+    border-radius: 25px;
+    background-color: slategrey;
+    margin: 30px;
+    padding: 20px;
+    color: white;
+
+}
+
+.aboutus img {
+    border-radius: 25px;
+    height: 300x;
+    width: 200px;
+    float: left;
+    padding: 25px;
+}
+
+.aboutus h2 {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.aboutus span {
+    text-align: center;
+    
+    
+}
+/* Footer */
+
+.footer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    
+    font-size: 1.25rem;
+    background-color: black;
+    gap: 25px;
+}
